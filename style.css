@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #f5f7ff, #dfe9ff);
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+}
+
+.header,
+.course,
+.course-dec,
+.frontend,
+.backend,
+.database,
+.programming-con,
+.course-mod,
+.techno,
+.dev-tools,
+.eligibility,
+.schedule,
+.important-note,
+.contact-info,
+.marks-table,
+.contact-form-section {
+  margin-top: 18px;
+  padding: 20px 25px;
+  border-radius: 12px;
+}
+
+.header {
+  background: #dff3ff;
+  text-align: center;
+  border: 1px solid #9ddaf5;
+}
+
+.course {
+  background: #cdeedc;
+}
+
+.course-dec {
+  background: #dffaf7;
+}
+
+.frontend {
+  background: #f0d9ff;
+}
+
+.backend {
+  background: #f8e1bd;
+}
+
+.database {
+  background: #fff2a8;
+}
+
+.programming-con {
+  background: #ffe2a8;
+}
+
+.course-mod {
+  background: #c4f5ff;
+}
+
+.techno {
+  background: #ffc9c9;
+}
+
+.dev-tools {
+  background: #dfe7ff;
+}
+
+.eligibility,
+.schedule,
+.important-note {
+  background: #f4f4f4;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+  margin: 20px 0;
+}
+
+.image-container img {
+  width: min(100%, 500px);
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+p,
+ul,
+ol,
+dd {
+  margin-top: 0;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+}
+
+mark {
+  background: #ffe74c;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  background: #fff;
+}
+
+th,
+td {
+  border: 2px solid #d0d0d0;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+th {
+  background: #f0f4ff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form label {
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form button {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #c9d3ea;
+  font-size: 1rem;
+}
+
+.contact-form input:focus {
+  outline: 2px solid #7db9ff;
+  border-color: #7db9ff;
+}
+
+.contact-form button {
+  background: #2e6ff2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.contact-form button:hover {
+  background: #1d5fe5;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .header,
+  .course,
+  .course-dec,
+  .frontend,
+  .backend,
+  .database,
+  .programming-con,
+  .course-mod,
+  .techno,
+  .dev-tools,
+  .eligibility,
+  .schedule,
+  .important-note,
+  .contact-info,
+  .marks-table,
+  .contact-form-section {
+    padding: 15px 18px;
+  }
+}
